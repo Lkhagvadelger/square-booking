@@ -173,7 +173,7 @@ async function deactivateTeamMembers(locationId) {
       console.log(`No team members for location ${locationId} to deactivate.`);
       return;
     }
-    const teamMembersMap = teamMembers.reduce((map, teamMember) => {
+    const teamMembersMap = teamMembers.slice(0,25).reduce((map, teamMember) => {
       map[teamMember.id] = {
         teamMember: {
           status: "INACTIVE",
