@@ -136,13 +136,7 @@
             "serviceDuration": "3000000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMCwFyeMexqTdxw4",
-              "TMSzK-FIQ2k6FSEU",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -387,14 +381,7 @@
             "serviceDuration": "1200000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMCwFyeMexqTdxw4",
-              "TMSzK-FIQ2k6FSEU",
-              "TMD0dhgfKdtWaico",
-              "TMJjPtHVjfPG_dCo",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -436,14 +423,7 @@
             "serviceDuration": "1800000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMJjPtHVjfPG_dCo",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -484,13 +464,7 @@
             "serviceDuration": "900000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMCwFyeMexqTdxw4",
-              "TMSzK-FIQ2k6FSEU",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -546,12 +520,7 @@
             "serviceDuration": "600000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMCwFyeMexqTdxw4",
-              "TMSzK-FIQ2k6FSEU",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -591,15 +560,7 @@
             "serviceDuration": "1200000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMIQc1wsPFZN1Omk",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMJjPtHVjfPG_dCo",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -642,15 +603,7 @@
             "serviceDuration": "1500000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMIQc1wsPFZN1Omk",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMJjPtHVjfPG_dCo",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -693,13 +646,7 @@
             "serviceDuration": "1200000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMCwFyeMexqTdxw4",
-              "TMSzK-FIQ2k6FSEU",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -755,14 +702,7 @@
             "serviceDuration": "1200000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMCwFyeMexqTdxw4",
-              "TMIQc1wsPFZN1Omk",
-              "TMSzK-FIQ2k6FSEU",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -817,13 +757,7 @@
             "serviceDuration": "1800000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMCwFyeMexqTdxw4",
-              "TMIQc1wsPFZN1Omk",
-              "TMSzK-FIQ2k6FSEU",
-              "TMD0dhgfKdtWaico"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -878,15 +812,8 @@
             "serviceDuration": "600000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMCwFyeMexqTdxw4",
-              "TMIQc1wsPFZN1Omk",
-              "TMD0dhgfKdtWaico",
-              "TMSzK-FIQ2k6FSEU",
-              "TMJjPtHVjfPG_dCo",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
+           
           }
         }
       ],
@@ -926,13 +853,7 @@
             "serviceDuration": "2700000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         },
         {
@@ -954,13 +875,7 @@
             "serviceDuration": "2700000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         },
         {
@@ -982,13 +897,7 @@
             "serviceDuration": "3600000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -1031,13 +940,7 @@
             "serviceDuration": "4800000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         },
         {
@@ -1059,13 +962,7 @@
             "serviceDuration": "4800000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         },
         {
@@ -1087,13 +984,7 @@
             "serviceDuration": "5100000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -1136,14 +1027,7 @@
             "serviceDuration": "1800000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMSzK-FIQ2k6FSEU",
-              "TMIQc1wsPFZN1Omk",
-              "TMCwFyeMexqTdxw4",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
@@ -1583,13 +1467,7 @@
             "serviceDuration": "600000",
             "availableForBooking": true,
             "sellable": true,
-            "stockable": true,
-            "teamMemberIds": [
-              "TMCwFyeMexqTdxw4",
-              "TMSzK-FIQ2k6FSEU",
-              "TMD0dhgfKdtWaico",
-              "TMNWxmtV8EGB9S9F"
-            ]
+            "stockable": true
           }
         }
       ],
