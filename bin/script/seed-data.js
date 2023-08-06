@@ -106,21 +106,29 @@ async function createAppointmentServices(teamMemberIds, location) {
 async function createTeamMembers(locationId) {
   const teamMembers = [
     {
-      emailAddress: "johnsmith1234@square-example.com",
-      familyName: "Smith",
-      givenName: "John",
+      emailAddress: "Anu@square-example.com",
+      familyName: "",
+      givenName: "Anu",
+      id: "TMSzK-FIQ2k6FSEU"
     },
     {
-      emailAddress: "amyjohnson1234@square-example.com",
-      familyName: "Johnson",
-      givenName: "Amy",
+      emailAddress: "Buena@square-example.com",
+      familyName: "",
+      givenName: "Buena",
+      id: "TMCwFyeMexqTdxw4"
+    },
+    {
+      emailAddress: "Nara@square-example.com",
+      familyName: "",
+      givenName: "Nara",
+      id: "TMNWxmtV8EGB9S9F"
     }
   ];
   const teamMemberIds = [];
   try {
     const responses = await Promise.all(teamMembers.map(newTeamMember =>
       teamApi.createTeamMember({
-        idempotencyKey: uuidv4(),
+        idempotencyKey: newTeamMember.id,
         teamMember: {
           assignedLocations: {
             assignmentType: "EXPLICIT_LOCATIONS",
@@ -173,7 +181,7 @@ async function deactivateTeamMembers(locationId) {
       console.log(`No team members for location ${locationId} to deactivate.`);
       return;
     }
-    const teamMembersMap = teamMembers.slice(0,25).reduce((map, teamMember) => {
+    const teamMembersMap = teamMembers.slice(0, 25).reduce((map, teamMember) => {
       map[teamMember.id] = {
         teamMember: {
           status: "INACTIVE",
@@ -240,7 +248,7 @@ async function clearAppointmentServices(locationId) {
  */
 async function clearCustomers() {
   try {
-    const { result: { customers } }  = await customersApi.searchCustomers({
+    const { result: { customers } } = await customersApi.searchCustomers({
       query: {
         filter: {
           referenceId: {
@@ -275,7 +283,7 @@ async function clearCustomers() {
 program
   .command("generate")
   .description("creates two team members using team API and hair services using catalog API")
-  .action(async() => {
+  .action(async () => {
     // retrieve the location
     const locationId = process.env.SQUARE_LOCATION_ID;
     const location = await retrieveLocation(locationId);
@@ -294,13 +302,13 @@ program
 program
   .command("clear")
   .description("clears the team members and appointment services assigned to the location")
-  .action(async() => {
+  .action(async () => {
     const rl = readline.createInterface({
       input: process.stdin,
       output: process.stdout,
     });
     const locationId = process.env.SQUARE_LOCATION_ID;
-    rl.question(`Are you sure you want to clear all appointment services created for location ${locationId}, deactivate team members and remove all customers created by the app? (y/n) `, async(ans) => {
+    rl.question(`Are you sure you want to clear all appointment services created for location ${locationId}, deactivate team members and remove all customers created by the app? (y/n) `, async (ans) => {
       if (ans.toUpperCase() === "Y") {
         // deactivate team members
         await deactivateTeamMembers(locationId);
